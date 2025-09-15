@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфоліо Євгена</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="profile_name">Євген</div>
+        <div class="topmenu">
+            <a href="#about-me">Про мене</a>
+            <a href="#skills">Навички</a>
+            <a href="#projects">Проєкти</a>
+            <a href="#recommendations">Рекомендації</a>
+        </div>
+    </div>
+
+    <div id="home" class="container">
+        <div class="greeting-text">
+            Привіт, я <span class="profile_name">Євген</span>.
+            <br>
+            Я веб-розробник.
+        </div>
+        <div class="profile-image">
+            <img src="https://i.ibb.co/L5QyL3z/professional-developer.jpg" alt="Професійний розробник">
+        </div>
+    </div>
+
+    <div id="about-me" class="container">
+        <div class="flexbox">
+            <div class="about-me-image">
+                <img src="https://i.ibb.co/K2sYxXy/developer.jpg" alt="Євген">
+            </div>
+            <div class="about-me-text">
+                <h2>Про мене</h2>
+                <p>
+                    Я — Євген, досвідчений веб-розробник з багаторічним стажем. 
+                    Маю глибокі знання в HTML5, CSS3, JavaScript та сучасних фреймворках, таких як React. 
+                    Моя пристрасть — створювати інтуїтивно зрозумілі, 
+                    ефективні та візуально привабливі веб-додатки. 
+                    Я завжди прагну вдосконалювати свої навички та слідувати 
+                    останнім тенденціям у галузі розробки.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="container">
+        <h2>Навички</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Досвід у створенні структурованих та семантичних веб-сторінок.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa fa-css3"></i>
+                <h3>CSS3</h3>
+                <p>Майстерність у створенні адаптивних та візуально привабливих дизайнів.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Розробка динамічних та інтерактивних функцій для веб-додатків.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa fa-react"></i>
+                <h3>React</h3>
+                <p>Створення компонентних та масштабованих односторінкових додатків.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa fa-node"></i>
+                <h3>Node.js</h3>
+                <p>Досвід у розробці серверної частини та API.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa fa-git"></i>
+                <h3>Git</h3>
+                <p>Ефективна робота з системами контролю версій та командна співпраця.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="container">
+        <h2>Проєкти</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>E-commerce Marketplace</h3>
+                <p>Масштабований інтернет-магазин, розроблений на React з використанням Redux для управління станом. Включає систему автентифікації користувачів, кошик покупок та інтеграцію платіжного шлюзу.</p>
+            </div>
+            <div class="project-card">
+                <h3>Personal Blog Platform</h3>
+                <p>Платформа для блогів з динамічним контентом, створена на Node.js та Express.js. Має зручний інтерфейс для адміністрування, систему коментарів та можливість завантаження медіафайлів.</p>
+            </div>
+            <div class="project-card">
+                <h3>Task Management App</h3>
+                <p>Інтуїтивно зрозумілий додаток для управління завданнями, який дозволяє створювати, редагувати та відстежувати прогрес. Розроблено з використанням Vue.js та Firebase для зберігання даних у реальному часі.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="recommendations" class="container">
+        <h2>Рекомендації</h2>
+        <div class="recommendations-grid">
+            <div class="recommendation-card">
+                <p>Євген — це надзвичайно відповідальний та талановитий розробник. Його вміння вирішувати складні проблеми та знаходити нестандартні рішення вражають. Він завжди дотримується термінів і є цінним членом будь-якої команди.</p>
+            </div>
+            <div class="recommendation-card">
+                <p>Працювати з Євгеном — одне задоволення. Він не тільки професіонал у своїй справі, але й чудовий комунікатор. Завдяки його внеску наш проєкт досягнув нового рівня якості. Рекомендую його як видатного спеціаліста.</p>
+            </div>
+            <div class="recommendation-card">
+                <p>Професіоналізм Євгена відчувається у кожній деталі його роботи. Він завжди відкритий до нових ідей та готовий ділитися своїми знаннями. Його код завжди чистий, добре документований і легко підтримується.</p>
+            </div>
+        </div>
+        <div class="add-recommendation">
+            <h3>Додати рекомендацію</h3>
+            <textarea id="new_recommendation" rows="4" placeholder="Напишіть свою рекомендацію..."></textarea>
+            <button id="recommend_btn" onclick="addRecommendation()">Надіслати</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="#home">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+        </a>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="showPopup(false)">&times;</span>
+            <p>Дякуємо за вашу рекомендацію! Вона успішно надіслана.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
